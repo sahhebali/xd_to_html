@@ -1,0 +1,220 @@
+/* Common css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header css start */
+
+.inner_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: rgb(248, 212, 248);
+    margin: 15px auto;
+
+}
+
+.logo {
+    max-width: 92px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+
+
+nav ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1C4961;
+}
+
+nav ul li a:hover {
+    color: rgb(21, 32, 184);
+}
+
+.connect_btn {
+    max-width: 104px;
+    max-width: 104px;
+    font-size: 19px;
+    background: #4468E2;
+    border: #6A89EF;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    padding: 5px 20px;
+}
+
+.connect_btn a {
+    color: #FFFFFF;
+}
+
+
+/* ===header css end */
+
+
+
+
+/* hero_baner css start */
+#hero_baner {}
+
+.inner_container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: monospace;
+    color: #FFFFFF;
+}
+
+.inner_container p {
+    text-align: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.inner_container {
+    background-image: url("../images/hero_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+    height: 400px;
+}
+
+.traveler_checkin {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    max-width: 565px;
+    height: 70px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.traveler_checkin div {
+    margin: 0 7px;
+}
+
+.btn_explore {
+    background: #4468E2;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.btn_explore a {
+    color: #FFFFFF;
+}
+
+/* hero_baner css End */
+
+
+/* blog css start */
+.blog_leftSide {
+    background-image: url("../images/blog_1.png");
+    background-repeat: no-repeat;
+}
+
+/* blog css End */
+
+
+/* happy cou8stomers css start */
+#happy_coustomer {}
+
+#happy_coustomer h2 {
+    text-align: center;
+    margin: 80px 0;
+    color: #000000;
+}
+
+.happy_coustomers {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.happy_coustomers_1 {}
+
+.happy_coustomers_1:hover {
+    background: #edf1f1;
+    border-radius: 10px;
+
+}
+
+.happy_coustomers_1 p {
+    margin: 0 30px;
+
+}
+
+.happy_coustomers_1 div {
+    display: flex;
+    align-items: center;
+
+    margin: 10px 15px;
+}
+
+
+/* footer css start */
+footer {
+    background: #E1E8F8;
+    border-radius: 10px;
+
+}
+
+.inner_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    margin: 50px 0;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+/* footer css End */
